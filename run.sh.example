@@ -1,0 +1,7 @@
+#!/bin/sh
+HADNS_PATH=/usr/local/hadns
+
+set -e
+cd $HADNS_PATH
+
+twistd -l /dev/null -y hadns.py
